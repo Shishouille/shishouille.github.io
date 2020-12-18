@@ -1,0 +1,122 @@
+/* Global Defaults */
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+}
+
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+  line-height: 175%;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/* Headlines */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  font-weight: 700;
+  font-family: "Quicksand", sans-serif;
+}
+
+/* Text Styles */
+
+p,
+th,
+td,
+li,
+dd,
+dt,
+ul,
+ol,
+blockquote,
+q,
+acronym,
+abbr,
+a,
+input,
+select,
+textarea {
+  margin: 0;
+  padding: 0;
+}
+
+/* Links and Images */
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a[disabled] {
+  cursor: auto;
+}
+
+img {
+  border: none;
+}
+
+/* Forms */
+
+form {
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+label {
+  cursor: pointer;
+}
+
+textarea,
+input {
+  background: none;
+  border: none;
+  font-size: 1em;
+  outline: none;
+  box-shadow: none;
+}
+
+button,
+[role="button"],
+input#submit {
+  background: none;
+  border: none;
+  font-size: 1em;
+  cursor: pointer;
+  -webkit-appearance: none;
+  font-family: "Nunito", sans-serif;
+}
+
+[role="button"],
+button:focus {
+  outline: 0;
+}
+
+[role="button"][disabled],
+button[disabled] {
+  cursor: auto;
+}
